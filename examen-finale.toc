@@ -2,7 +2,12 @@
 \contentsline {section}{\numberline {1}Introduction et justification du sujet}{2}{section.1}%
 \contentsline {section}{\numberline {2}Problématique et objectifs}{2}{section.2}%
 \contentsline {section}{\numberline {3}Rappel du schéma méthodologique}{2}{section.3}%
-\contentsline {section}{\numberline {4}Analyse d’intégrité, éthique et ÉDI}{2}{section.4}%
-\contentsline {section}{\numberline {5}Gestion et propriété intellectuelle}{2}{section.5}%
-\contentsline {section}{\numberline {6}Valorisation et Diffusion}{2}{section.6}%
-\contentsline {section}{\numberline {7}Contributions individuelles}{2}{section.7}%
+\contentsline {subsection}{\numberline {3.1}Collecte et préparation des données}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Choix de l'architecture du modèle}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Méthode adaptation au contexte académique (Fine-tuning)}{2}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Analyse d’intégrité, éthique et ÉDI}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analyse d’intégrité et d’éthique}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Aspects ÉDI}{4}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Gestion et propriété intellectuelle}{4}{section.5}%
+\contentsline {section}{\numberline {6}Valorisation et Diffusion}{4}{section.6}%
+\contentsline {section}{\numberline {7}Contributions individuelles}{4}{section.7}%
