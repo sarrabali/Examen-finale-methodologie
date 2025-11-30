@@ -12,6 +12,9 @@
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{geometry}
+\usepackage{enumitem}
+\usepackage[none]{hyphenat}
+\usepackage{microtype}
 \usepackage{csquotes}
 \usepackage{mwe} % fournit example-image-a pour la figure d'exemple
 
@@ -66,6 +69,8 @@ générative pour la recherche (\emph{RedactoSci})}}
 	\emph{Université du Québec en Outaouais}}
 \date{25 Novembre, Session Automne 2025}
 
+
+\emergencystretch=1em
 \begin{document}
 
 % 1) Page de titre
@@ -86,10 +91,95 @@ générative pour la recherche (\emph{RedactoSci})}}
 
 \section{Rappel du schéma méthodologique}
 \label{sec:Rappel du schéma méthodologique}
+Le modèle RedactoSci a été développé en suivant une méthodologie rigoureuse, inspirée des pratiques courantes en intelligence artificielle appliquée à la recherche scientifique. Elle repose sur trois étapes clés: la sélection des données d'entraînement, le choix d'une architecture de modèle de langage moderne et l'adaptation du modèle au contexte académique.
+
+\subsection{Collecte et préparation des données}
+La diversité et la qualité des données constituent des éléments essentiels à la performance des modèles de langage de grande taille \emph{(LLM)}\cite{ZhaouEtAl}.
+En nous basant sur cette idée, la première étape de notre méthodologie consiste à définir un ensemble de textes scientifiques destiné à l'entraînement du modèle.
+Nous avons défini un ensemble composé de:
+\begin{itemize}
+	\item Des articles scientifiques majoritairement récents.
+	\item Des rapports techniques.
+	\item Des livres scientifiques et chapitres d'ouvrages.
+	\item Des thèses de mémoire universitaires.
+\end{itemize}
+
+Pour assurer la fiabilité des données, nous avons appliqué un processus de nettoyage incluant la suppression des doublons, la correction des erreurs typographiques, et la normalisation du formatage.
+on a également assurer la fiabilité des ressources utilisées en privilegiant des sources reconnues et en virifiant la provenance des documents.
+Les modèles entraînés sur des données mal filtrées présentent un risque accru d'erreurs factuelles et d'incohérences dans leurs réponses.
+Cette observation justifie l’importance d’un contrôle rigoureux de la qualité des données lors de la phase de préparation.
+
+\subsection{Choix de l'architecture du modèle}
+Les modèles GPT-like restent parmi les plus performants dans la production de textes spécialisés.
+Pour concevoir RedactoSci, nous avons utilisé un modèle pré-entraîné de type GPT-like, fondé sur l'architecture \emph{Transformer}. 
+L’architecture \emph{Transformer} a fondamentalement révolutionné le traitement automatique du langage naturel et est devenue la pierre angulaire des modèles de langage de grande taille modernes \cite{antonesi2025transformers}.
+Le choix du \emph{Transformer} permet donc notre modèle de disposer d'une base solide et performante pour générer des textes cohérents et pertinents.
+
+\subsection{Méthode adaptation au contexte académique (Fine-tuning)}
+Afin d'adapter le modèle GPT-like aux exigences scientifiques. Nous avons applique une méthode d'instruction-based fine-turning.
+Cette approche consiste à fournir au modèle des exemples structurés tels que:
+\begin{itemize}
+    \item Des résumés d'articles.
+    \item Des explications des différents concepts scientifiques.
+    \item Des introductions et des conclusions bien structurés.
+    \item Des reformulations de textes complexes en langage plus accessible.
+    \item Des suggestions de références bibliographiques pertinentes.
+\end{itemize}
+Grace à ce processus, RedactoSci apprend à reproduire la structure, la rigueur et le style attendus dans les publications scientifiques.
+Ce type de fine-tuning cible permet d'obtenir un LLM spécialisé, performant dans un domaine précis\cite{narayan2024cookbook}
 
 \section{Analyse d’intégrité, éthique et ÉDI}
-\label{sec:Analyse d’intégrité, éthique et ÉDI}
+\label{sec:analyse-integrite-ethique-edi}
 
+\subsection{Analyse d’intégrité et d’éthique}
+
+L’utilisation d’un modèle de langage dans un contexte académique soulève plusieurs enjeux liés à l’intégrité scientifique. Nous présentons ici trois risques majeurs : le plagiat algorithmique, la fabrication de données (hallucinations) et la perte de compétence des utilisateurs.
+
+\begin{enumerate}[label=\alph*)]
+
+    \item \textbf{Plagiat algorithmique}\\
+    \hspace{0.5cm} L’un des risques les plus importants associés aux grands modèles de langage est leur capacité à reproduire mot pour mot des extraits issus de leur ensemble d’entraînement. \cite{carlini2021extracting}. Les LLM peuvent mémoriser et restituer des passages entiers lorsque certaines séquences rares ou reconnaissables leur sont présentées\cite{carlini2021extracting}.
+    Ce phénomène crée un risque élevé de plagiat si les données d’entraînement contiennent des œuvres protégées par le droit d’auteur. 
+	
+	Pour réduire ce risque, \emph{RedactoSci} intègre des mécanismes favorisant la reformulation et décourageant la génération de contenu trop proche de sources existantes. 
+     De plus, des vérifications internes détectent les formulations suspectes et avertissent l’utilisateur lorsque le texte généré est trop similaire à un contenu potentiellement protégé. L’utilisateur est également encouragé à citer explicitement les sources qu’il utilise réellement, afin de respecter les principes d’intégrité académique.
+
+    \item \textbf{Fabrication de données (hallucinations)}\\
+     Même les modèles de langage les plus avancés continuent d’inventer des faits, des références ou des entités fictives, c’est ce qu’on appelle l’hallucination. Les grands modèles de langage (LLM) génèrent parfois un contenu plausible mais les hallucinations demeurent un défi majeur à mesurer que ces modèles sont de plus en plus utilisés dans des contextes réels et à fort enjeu\cite{huang2025survey}.    
+	
+	 Pour atténuer ce problème, \emph{RedactoSci} inclut des mécanismes de \textit{détection d’incertitude} permettant au modèle de signaler les réponses dont la fiabilité est limitée. Lorsqu’une donnée ne peut être confirmée, le modèle propose des formulations prudentes ou invite explicitement l’utilisateur à effectuer des vérifications manuelles.
+
+    \item \textbf{Perte de compétence (deskilling)}\\
+   La dépendance à long terme à l’égard des outils d’IA pour l’externalisation cognitive pourrait également éroder des compétences cognitives essentielles telles que la mémoire, l’analyse et la résolution de problèmes. À mesure que les individus s’appuient davantage sur l’IA, leurs capacités cognitives internes risquent de s’atrophier, entraînant une diminution de la mémoire et de la santé cognitive à long terme\cite{gerlich2025ai}.
+    
+   \emph{RedactoSci} a été conçu pour accompagner l’utilisateur plutôt que le remplacer. Il fournit des explications, des pistes de réflexion et des justifications méthodologiques plutôt que des réponses complètes et définitives. Cette approche favorise l’apprentissage actif et encourage l’utilisateur à développer ses propres compétences.
+\end{enumerate}
+
+
+\subsection{Aspects ÉDI}
+\emph{RedactoSci} vise à promouvoir l'équité, la diversité et l'inclusion (ÉDI) selon plusieurs axes opérationnels et éthiques. Conçu comme un modèle de langage scientifiques, il s'appuie sur des données de différentes langues, cultures et discipline. Son but est de réduire les biais structurels dans les systèmes d'intelligence artificielle. 
+\begin{enumerate}[label=\alph*)]
+    \item \textbf{Biais linguistiques}
+   
+	La plupart des modèles de langage sont entrainés sur des travaux et textes en anglais, ce qui peut réduire la visibilité de la recherche en langue différentes. Cela représente un déséquilibrement qui peut créer une dépendance à la langue dominante et réduit la diversité des idées.
+    Le modèle \emph{RedactoSci} cherche à répondre à ces besoins et corriger ce déséquilibre en s'appuyant sur des données multilingues.
+    Grace a cette approche, la recherche multilingue peut bénéficier de la même précision et que celle produite en anglais.
+    \item \textbf{Biais culturels et de genre}
+   
+	Le choix des mots dans les sujets scientifiques influence fortement la crédibilité et réduit la valeur de certaines contributions.
+    Pour limiter ce type d'erreurs, \emph{RedactoSci} a été conçu pour ajuster les formulations. Le modèle aussi adopte une approche fondée sur le respect, l'équité et la sensibilité culturelle.
+    Son objectif est de garantir que chaque perspective puisse être exprime de manière équilibrée, respectueuse et sans préjugé.
+    \item \textbf{Transparence et inclusion dans la conception}
+    
+	L'un des principes fondamentaux de notre modèle est la transparence. Tous les documents et les informations utilisé pour l'apprentissage de \emph{RedactoSci} sont bien choisit et documentés afin de préciser leur contexte d'utilisation et leur origine. 
+    De plus il permet d'identifier et corriger les déséquilibres dans les données dont d'assurer la qualité scientifique du modèle.
+    Le modèle adopte aussi une approche inclusive, où chaque étape prend en considération la diversité linguistiques et culturelles
+    Cela garantit que le modèle reste pertinent et fidèle aux valeurs de diversité que la recherche universitaire doit défendre.
+
+
+
+
+\end{enumerate}
 \section{Gestion et propriété intellectuelle}
 \label{sec:Gestion et propriété intellectuelle}
 
@@ -110,6 +200,6 @@ générative pour la recherche (\emph{RedactoSci})}}
 \pagenumbering{roman}
 \appendix
 
-
-
+\bibliographystyle{ieeetr}
+\bibliography{references}
 \end{document}
