@@ -67,7 +67,7 @@ générative pour la recherche (\emph{RedactoSci})}}
 \author{Paulin Rodrigue Njayou Tchapda, Sarra Yasmine Bali\\
 	Rachidatou Mabey Insa et Fatimata Zahra Diop\\[0.5em]
 	\emph{Université du Québec en Outaouais}}
-\date{25 Novembre, Session Automne 2025}
+\date{ 9 Décembre 2025, Session Automne 2025}
 
 
 \emergencystretch=1em
@@ -81,17 +81,76 @@ générative pour la recherche (\emph{RedactoSci})}}
 \listoftables
 \listoffigures
 
+
+
 \newpage
 \section{Introduction et justification du sujet}
 \label{sec:Introduction et justification du sujet}
+En 2025, l’intelligence artificielle générative connaît une expansion fulgurante, proposant des outils inédits tels que la conversation, le code, les images, les vidéos et les enregistrements audio. 
+La génération de résultats comparables à ceux produits par les humains, avec une efficacité notable, est rendue possible par l’IA générative. 
+Il suffit d’un simple clic pour générer du contenu qui aurait demandé des heures à une personne humaine, grâce aux modèles de langage de grande taille (LLM)\cite{lemieux2025ia}.
+Cette révolution transforme la manière dont la recherche académique est conçue, rédigée ou évaluée, en modifiant les pratiques intellectuelles et les cadres éthique des milieux universitaires.
 
+Malgré leurs performances impressionnantes, les modèles d’IA générative hallucinent dans un cas sur six ou davantage\cite{magesh2024ai}.
+Ce phénomène, appelé hallucination, désigne la production d’informations fausses risque de compromettre la rigueur scientifique et la fiabilité des connaissances.
 
+Le développement rapide et l’usage massif de l’IA générative dans la recherche présentent des défis éthiques complexes et multiformes \cite{bittle2025generative}. L’utilisation non encadrée de ces outils soulève des risques liés au plagiat algorithmique, à la traçabilité des ressources et a la responsabilité académique.
+
+L’impact de l’IA sur la production scientifique n’est pas aussi neutre. Une confiance élevée envers l’IA générative est associée à une réduction de la pensée critique \cite{gerlich2025ai}. Cette dépendance peut affaiblir les capacités d’analyse et de raisonnement autonome des étudiants et des chercheurs.
+
+Par ailleurs, l’IA améliore l’écriture académique dans six domaines: la génération d’idées, la structuration du contenu, la synthèse de la littérature, la gestion des données, la révision et la conformité éthique \cite{khalifa2024using}.
+Si ces apports constituent une avancée majeure, ils exigent une réflexion approfondie sur la place de l’humain dans la recherche et sur les conditions d’un usage responsable de l’IA dans les institutions universitaires.
+
+Dans ces perspectives, notre équipe a développé \emph{RedactoSci}, un modèle de langage spécialisé, entraîné sur des millions d’articles académiques et de dépôts de code. L’outil est destiné à soutenir les étudiants et chercheurs, en leur permettant la rédaction, l’analyse et la révision des différent ensembles de données tout en respectant les principe d’intégration, d’équité et de rigueur académique.
+
+\emph{RedactoSci} offre d’un côté un gain de temps considérable pour des tâches répétitives, telles que la structuration des plans, la recherche des articles et informations, ainsi que la reformulation des paragraphes.
+Ce travail s’inscrit dans un contexte où les universités cherchent à encadrer l’usage de l’intelligence artificielle générative, sans pour autant bloquer l’innovation.
+
+Notre sujet : « De la méthode à l’intégrité : gouvernance éthique et légale d’un outil d’IA générative pour la recherche » vise précisément à analyser comment un outil comme \emph{RedactoSci} peut être intégré dans les pratiques de recherche en respectant les exigences et en impactant positivement la vie des étudiants et des chercheurs. Il s’agit non seulement de décrire la méthodologie technique de développement du modèle, mais aussi d’examiner les implications éthiques, légales et ÉDI de son déploiement dans un environnement académique.
+Cette perspective justifie pleinement l’importance de ce sujet.
 \section{Problématique et objectifs}
 \label{sec:Problématique et objectifs}
+L’évolution de \emph{RedactoSci} répond à une problématique grandissante dans le domaine universitaire : l’immense quantité de publications scientifiques et de données à examiner rend la recherche particulièrement exigeante, alors que les étudiants et chercheurs sont souvent contraints par le temps pour réaliser des revues de littérature, rédiger des rapports ou élaborer leurs études. \cite{connell2025generative}
+Nombreux sont ceux qui rencontrent le phénomène du « syndrome de la page blanche ».
+Ainsi, \emph{RedactoSci} a été conçu comme un assistant intelligent capable d’automatiser certaines tâches de base, telles que la création de plans, de paragraphes ou de code d’analyse,afin d’aider les chercheurs à se focaliser sur l’aspect conceptuel de leur travail.
+
+
+Bien que l’IA générative améliore considérablement l’apprentissage grâce à des expériences éducatives personnalisées, elle présente également des risques importants pour les fondements de l’intégrité académique, notamment l’originalité et le comportement éthique des étudiants. L’évolution rapide des modèles LLM comme ChatGPT remet en question les cadres actuels d’intégrité et exige l’élaboration de nouvelles stratégies afin de garantir le maintien de pratiques éducatives authentiques et éthiques\cite{bittle2025generative}.
+
+Toutefois, l’intégration de l’intelligence artificielle générative n’est pas exemple de risques. Les modèles LLM comme \emph{RedactoSci} peuvent produire des informations fausse ou reproduire des passages issus de leurs données d’entrainement sans afficher les références, posant ainsi des problèmes de plagiat algorithmique et de fiabilité des sources.
+Les outils d’intelligence artificielle ne modifient pas seulement la manière de production du contenu mais reformuler les informations et peuvent même en altérer le sens.
+En plus de ça, l’utilisation de l’IA générative aussi peut affecter les compétences des chercheurs et crée des dépendances excessives a ces outils, ainsi que la reproduction des biais linguistiques et culturels qui peuvent aussi menacer les principe d’équité, diversité et inclusion (ÉDI).
+
+
+Ainsi la problématique ne concerne pas uniquement les risques d’erreurs ou de plagiat, mais également les transformations profondes des pratiques intellectuelles et des compétences méthodologiques nécessaires à la recherche universitaires car
+
+Ces défis imposent une gouvernance responsable des modèles d’IA dans le milieu universitaire afin d’associer l’intégrité scientifique et l’innovation technologique. \\
+
+Les objectifs de \emph{RedactoSci} ont été définis selon une approche SMART, visant à :
+\begin{itemize}
+	\item Augmenter la productivité documentaire ;
+	\item Automatiser les tâches de bas niveau ;
+	\item Réduire les obstacles cognitifs à la rédaction ;
+	\item Accroître l’accessibilité aux ressources scientifiques ;
+	\item Maintenir un haut niveau d’intégrité scientifique.
+\end{itemize}
+
+Un autre objectif est de réduire les risques éthiques associées à l’utilisation des outils d’IA générative. En ce sens, \emph{RedactoSci} est conçu pour intégrer la détection des formulations suspectes ainsi que des alertes en cas d’incertitude, afin de soutenir son usage responsable.
+Enfin notre modèle vise également à promouvoir l’équité, la diversité et l’inclusion dans des pratique de recherche en offrant différentes fonctionnalités possibles. 
+
+En somme, \emph{RedactoSci} vise à accélérer et faciliter la production scientifique, tout en préservant les exigences déontologiques qui fondent la recherche universitaire.
+
+Au-delà de ces objectifs initiaux, \emph{RedactoSci} s’inscrit également dans une perspective d’amélioration continue. Le modèle est conçu pour évoluer au fur et à mesure des retours des utilisateurs, ce qui permet d’adapter progressivement ses fonctionnalités aux besoins réels des étudiants et des chercheurs. Cette démarche itérative contribue à renforcer sa pertinence et sa valeur pédagogique, en faisant de l’IA non seulement un outil de production, mais également un support d’apprentissage méthodologique. Ainsi, l’outil participe à renforcer l’autonomie des utilisateurs tout en soutenant leur capacité à structurer, analyser et communiquer efficacement leurs travaux scientifiques.
 
 \section{Rappel du schéma méthodologique}
 \label{sec:Rappel du schéma méthodologique}
-Le modèle RedactoSci a été développé en suivant une méthodologie rigoureuse, inspirée des pratiques courantes en intelligence artificielle appliquée à la recherche scientifique. Elle repose sur trois étapes clés: la sélection des données d'entraînement, le choix d'une architecture de modèle de langage moderne et l'adaptation du modèle au contexte académique.
+Le modèle \emph{RedactoSci} a été développé en suivant une méthodologie rigoureuse, inspirée des pratiques courantes en intelligence artificielle appliquée à la recherche scientifique. Elle repose sur trois étapes clés: la sélection des données d'entraînement, le choix d'une architecture de modèle de langage moderne et l'adaptation du modèle au contexte académique.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{diagram.png}
+    \caption{Rappel du schéma méthodologique}
+    \label{fig:mon_image}
+\end{figure}
 
 \subsection{Collecte et préparation des données}
 La diversité et la qualité des données constituent des éléments essentiels à la performance des modèles de langage de grande taille \emph{(LLM)}\cite{ZhaouEtAl}.
@@ -111,8 +170,8 @@ Cette observation justifie l’importance d’un contrôle rigoureux de la quali
 
 \subsection{Choix de l'architecture du modèle}
 Les modèles GPT-like restent parmi les plus performants dans la production de textes spécialisés.
-Pour concevoir RedactoSci, nous avons utilisé un modèle pré-entraîné de type GPT-like, fondé sur l'architecture \emph{Transformer}. 
-L’architecture \emph{Transformer} a fondamentalement révolutionné le traitement automatique du langage naturel et est devenue la pierre angulaire des modèles de langage de grande taille modernes \cite{antonesi2025transformers}.
+Pour concevoir \emph{RedactoSci}, nous avons utilisé un modèle pré-entraîné de type GPT-like, fondé sur l'architecture \emph{Transformer}. 
+L’architecture \emph{Transformer} a fondamentalement révolutionné le traitement automatique du langage naturel et est devenue la pierre angulaire des modèles de langage de grande taille modernes \cite{antonesi2025review}.
 Le choix du \emph{Transformer} permet donc notre modèle de disposer d'une base solide et performante pour générer des textes cohérents et pertinents.
 
 \subsection{Méthode adaptation au contexte académique (Fine-tuning)}
@@ -125,8 +184,15 @@ Cette approche consiste à fournir au modèle des exemples structurés tels que:
     \item Des reformulations de textes complexes en langage plus accessible.
     \item Des suggestions de références bibliographiques pertinentes.
 \end{itemize}
-Grace à ce processus, RedactoSci apprend à reproduire la structure, la rigueur et le style attendus dans les publications scientifiques.
+Grace à ce processus, \emph{RedactoSci} apprend à reproduire la structure, la rigueur et le style attendus dans les publications scientifiques.
 Ce type de fine-tuning cible permet d'obtenir un LLM spécialisé, performant dans un domaine précis\cite{narayan2024cookbook}
+
+En complément de ces étapes principales, le développement de \emph{RedactoSci} a nécessité plusieurs phases d’évaluation intermédiaires afin d’assurer la qualité du modèle. Une série de tests internes a été menée en comparant différentes configurations de fine-tuning, notamment des variations dans la taille des lots d’entraînement, le taux d’apprentissage, ainsi que la profondeur des instructions fournies. Ces expérimentations ont permis d’ajuster progressivement le modèle pour optimiser la cohérence des réponses, réduire les dérives stylistiques et améliorer la capacité du modèle à respecter les consignes méthodologiques propres au milieu universitaire.
+
+Une deuxième série de validations a ensuite été réalisée auprès d’un groupe restreint d’étudiants et de chercheurs volontaires. Ceux-ci ont testé le modèle sur des tâches réelles telles que la rédaction de résumés, la reformulation d’extraits complexes, ou la génération de plans détaillés pour des articles scientifiques. Les retours recueillis ont aidé à affiner les comportements du modèle, notamment en renforçant la clarté des explications, la transparence des suggestions bibliographiques, ainsi que la sensibilité aux formulations trop proches des textes originaux.
+
+Enfin, un audit final de qualité a été effectué afin de vérifier la stabilité du modèle, sa capacité à traiter des sujets interdisciplinaires et son respect des standards rédactionnels en sciences humaines, sciences appliquées et sciences de la santé. Cette phase a confirmé la robustesse de la méthodologie adoptée et a permis de valider officiellement la version du modèle utilisée pour la présente analyse.
+
 
 \section{Analyse d’intégrité, éthique et ÉDI}
 \label{sec:analyse-integrite-ethique-edi}
@@ -151,8 +217,15 @@ L’utilisation d’un modèle de langage dans un contexte académique soulève 
 
     \item \textbf{Perte de compétence (deskilling)}\\
    La dépendance à long terme à l’égard des outils d’IA pour l’externalisation cognitive pourrait également éroder des compétences cognitives essentielles telles que la mémoire, l’analyse et la résolution de problèmes. À mesure que les individus s’appuient davantage sur l’IA, leurs capacités cognitives internes risquent de s’atrophier, entraînant une diminution de la mémoire et de la santé cognitive à long terme\cite{gerlich2025ai}.
+   En plus de ces risques, l’utilisation d’un modèle comme \emph{RedactoSci} soulevé également des enjeux liés à la responsabilité académique. L’un des défis consiste à établir une frontière claire entre l’apport réel du chercheur et celui de l’outil. Bien que le modèle assiste à la production scientifique, il demeure essentiel que l’utilisateur conserve un rôle actif dans l’analyse, la vérification et la construction du raisonnement. Une utilisation non encadrée pourrait mener à une dilution des responsabilités, ou l’étudiant n’assume plus pleinement la validité des idées présentes dans son travail. Cette dérivé accentue la nécessité d’une politique institutionnelle définissant les contextes autorises d’usage, les limites du recours a l’IA, ainsi que les obligations de divulgation dans les travaux remis. 
     
-   \emph{RedactoSci} a été conçu pour accompagner l’utilisateur plutôt que le remplacer. Il fournit des explications, des pistes de réflexion et des justifications méthodologiques plutôt que des réponses complètes et définitives. Cette approche favorise l’apprentissage actif et encourage l’utilisateur à développer ses propres compétences.
+   Un autre enjeu lié à l’intégrité concerne la traçabilité des contributions produites par l’IA. Lorsque l’utilisateur s’appuie sur \emph{RedactoSci} pour générer des paragraphes entiers, il devient difficile de distinguer clairement ce qui provient de l’effort intellectuel humain et ce qui résulte d’un traitement automatique. Ce manque de distinction peut introduire un brouillage méthodologique où les chercheurs risquent d’attribuer à tort une réflexion ou une interprétation générée automatiquement. Dans les contextes académiques, où l’authenticité de la démarche scientifique est centrale, cette confusion peut compromettre la crédibilité des travaux soumis.
+
+    De plus, l’usage intensif de l’IA peut créer un effet de standardisation des styles d’écriture et des façons de présenter les résultats scientifiques. Lorsque plusieurs chercheurs s’appuient sur un même modèle pour structurer leurs travaux, les productions tendent à se ressembler, ce qui peut réduire la créativité individuelle, la diversité intellectuelle et la richesse des perspectives théoriques. Ce phénomène, souvent appelé “homogénéisation cognitive”, constitue un risque réel dans les institutions qui encouragent fortement l’usage de l’IA.
+   
+    Par ailleurs, l’usage d’un outil comme \emph{RedactoSci} soulève également des enjeux éthiques liés à la transparence. Dans un contexte universitaire où la méthodologie constitue une partie essentielle de l’évaluation, il est indispensable que l’utilisateur soit capable d’expliquer clairement quelles parties du travail ont été réalisées avec assistance automatisée. L’absence de transparence peut non seulement fausser l’évaluation académique, mais aussi créer une illusion de maîtrise méthodologique qui ne reflète pas réellement les compétences acquises. Cette question est d’autant plus cruciale que certaines institutions commencent à intégrer des règles strictes concernant la divulgation de l’usage de l’IA dans les travaux remis, afin de garantir l’équité entre les étudiants et d’éviter les dérives dans la reconnaissance des compétences.
+   
+    \emph{RedactoSci} a été conçu pour accompagner l’utilisateur plutôt que le remplacer. Il fournit des explications, des pistes de réflexion et des justifications méthodologiques plutôt que des réponses complètes et définitives. Cette approche favorise l’apprentissage actif et encourage l’utilisateur à développer ses propres compétences.
 \end{enumerate}
 
 
@@ -176,30 +249,190 @@ L’utilisation d’un modèle de langage dans un contexte académique soulève 
     Le modèle adopte aussi une approche inclusive, où chaque étape prend en considération la diversité linguistiques et culturelles
     Cela garantit que le modèle reste pertinent et fidèle aux valeurs de diversité que la recherche universitaire doit défendre.
 
-
-
-
 \end{enumerate}
+
+Au-delà des biais linguistiques, culturels et de genre, l’accessibilité constitue également une dimension essentielle des principes ÉDI. \emph{RedactoSci} a été conçu pour être utilisable par des personnes ayant des niveaux variés d’expertise, y compris des étudiants internationaux, des personnes en situation de handicap linguistique ou cognitif, ainsi que des chercheurs issus de disciplines peu familières avec l’IA. L’interface simplifiée, les explications graduelles et la capacité du modèle à reformuler des passages complexes en langage clair contribuent à réduire les obstacles à la compréhension et favorisent une participation équitable au processus de recherche.
+
+Enfin, l’inclusion d’un mécanisme de signalement des contenus potentiellement biaisés ou stéréotypés permet de renforcer l’équité algorithmique. Lorsque le modèle détecte un biais récurrent dans les données ou dans ses propres réponses, il peut alerter l’utilisateur et proposer une reformulation plus neutre. Cette démarche proactive s’inscrit dans une vision moderne et responsable des IA universitaires.
+
 \section{Gestion et propriété intellectuelle}
 \label{sec:Gestion et propriété intellectuelle}
+La gestion de la propriété intellectuelle dans le cadre d’un projet reposant sur l’intelligence artificielle générative constitue un enjeu stratégique et scientifique majeur. Elle ne se limite pas à la protection juridique des actifs développés, mais englobe également la reconnaissance des contributions intellectuelles, la gouvernance des données et la définition des modalités de diffusion du modèle.
 
+Dans un contexte où les outils d’IA peuvent produire des contenus complexes, articles, codes, figures et autres, la question de la paternité des œuvres et de la responsabilité scientifique devient centrale. Par ailleurs, l’utilisation de ces systèmes soulève des préoccupations liées à la confidentialité, notamment lorsque des données non publiées ou sensibles sont introduites dans les prompts.
+ Ces aspects doivent être abordés avec rigueur afin de garantir la conformité aux normes légales, éthiques et institutionnelles.
+
+ Au-delà des considérations juridiques, la stratégie de partage et de documentation du modèle influence directement la crédibilité académique et la valorisation économique du projet. La tension entre science ouverte et secret commercial impose un arbitrage éclairé : favoriser la transparence et la reproductibilité pour renforcer la confiance scientifique, tout en préservant les intérêts compétitifs de l’institution.
+
+ Cette section examine ces deux dimensions : la propriété intellectuelle et la politique de documentation et partage en proposant des recommandations alignées sur les meilleures pratiques en matière de recherche responsable et de gouvernance technologique.
+\subsection{Propriété intellectuelle} 
+La question de la propriété intellectuelle dans le contexte de l’utilisation d’un modèle d’IA générative tel que \emph{RedactoSci} soulève des enjeux complexes qui touchent à la paternité des œuvres, à la responsabilité scientifique et à la confidentialité des données. 
+
+En premier lieu, il convient de rappeler que le droit d’auteur repose sur le principe d’originalité et sur l’intervention humaine dans la création. Les législations en vigueur, qu’il s’agisse du cadre canadien ou des standards internationaux, ne reconnaissent pas les systèmes d’intelligence artificielle comme des auteurs. Une IA, même sophistiquée, demeure un outil et non un sujet de droit. 
+
+Par conséquent, les articles, codes ou rapports produits avec son assistance ne peuvent lui être attribués juridiquement. La paternité revient exclusivement aux personnes qui ont dirigé le processus scientifique, pris les décisions intellectuelles et validé la version finale. Cette approche est cohérente avec les recommandations institutionnelles et les bonnes pratiques de transparence scientifique, qui imposent de mentionner l’usage de l’IA dans la section Méthodes ou Remerciements, sans l’inclure dans la liste des auteurs.
+La titularité des œuvres générées avec \emph{RedactoSci} doit donc être clairement définie. Les chercheurs qui utilisent l’outil pour rédiger un article ou générer du code conservent les droits d’auteur, à condition qu’ils apportent une contribution substantielle et qu’ils assument la responsabilité scientifique du contenu. L’université, en tant qu’entité ayant financé le développement du modèle, peut toutefois revendiquer des droits patrimoniaux ou des licences non exclusives sur les résultats issus des projets réalisés avec ses ressources. Ces droits sont généralement encadrés par des politiques institutionnelles ou des contrats de recherche, qui peuvent prévoir des obligations de divulgation avant toute publication ou dépôt de brevet. Il est donc essentiel que le rapport précise que les œuvres produites avec l’assistance de \emph{RedactoSci} restent la propriété des auteurs humains, sous réserve des clauses institutionnelles applicables.
+
+Un autre enjeu majeur concerne la confidentialité des données. L’utilisation d’un modèle génératif implique souvent la soumission de prompts contenant des informations sensibles, telles que des résultats expérimentaux non publiés, des protocoles sous embargo ou des données personnelles. Ces informations, si elles sont stockées ou réutilisées par le système, peuvent entraîner des violations contractuelles, des atteintes à la vie privée ou une perte d’avantage compétitif. Pour prévenir ces risques, il est impératif d’adopter une gouvernance stricte des données. Cela inclut l’interdiction d’entrer des données non anonymisées ou confidentielles dans le modèle, l’application systématique de techniques d’anonymisation et la mise en place d’une politique de rétention minimale. Les prompts sensibles doivent être effacés après usage, et les données d’entraînement doivent être séparées des données d’exploitation. Des contrôles techniques, tels que l’exécution hors ligne ou la journalisation des accès, renforcent la sécurité et la conformité. Enfin, la traçabilité des interactions avec le modèle, incluant la version utilisée et les dépendances logicielles, contribue à la crédibilité scientifique et à la responsabilité des chercheurs.
+Un aspect supplémentaire de la gestion de la propriété intellectuelle concerne la protection des algorithmes et des modèles dérivés. Dans la mesure où \emph{RedactoSci} peut être adapté, affiné ou enrichi selon les projets de recherche, il devient essentiel de déterminer la titularité des versions modifiées. Par exemple, lorsqu’un laboratoire adapte le modèle à un corpus spécialisé, la question se pose de savoir si cette version dérivée appartient au laboratoire, à l’université ou à l'équipe qui a développé la version originale. Ces situations exigent des lignes directrices claires sur la gestion des droits dérivés, inspirées des pratiques courantes en matière de logiciels libres ou de licences industrielles. De plus, pour éviter les conflits d'usage, chaque modification majeure du modèle doit être documentée et validée selon un protocole institutionnel précis.
+\subsection{Documentation et Partage}
+La question du partage du modèle \emph{RedactoSci} oppose deux logiques : celle de la science ouverte, fondée sur la transparence et la reproductibilité, et celle de la valorisation économique, qui privilégie la confidentialité et la protection des actifs. La science ouverte recommande la diffusion des codes, des modèles et des données afin de permettre la vérification des résultats, l’évaluation par les pairs et la collaboration internationale. Dans cette perspective, publier le code source de \emph{RedactoSci} sous une licence permissive, telle qu’Apache-2.0 ou MIT, apparaît comme une solution adaptée. Cette approche favorise la réutilisation et la citation, tout en garantissant la reconnaissance des auteurs. Elle suppose la mise en place d’une documentation complète, incluant un fichier LICENSE, un README détaillé, un fichier CITATION.cff et l’attribution d’un DOI via des plateformes comme Zenodo ou OSF.
+
+La diffusion des poids du modèle peut se faire sous une forme partielle ou distillée, accompagnée d’une « model card » décrivant les objectifs, les limites, les biais connus et les métriques de performance. Les jeux de données doivent être publiés uniquement sous forme dérivée et anonymisée, avec une licence Creative Commons adaptée, telle que CC-BY-NC, et une fiche de transparence précisant le niveau d’anonymisation et les restrictions d’usage.
+Cette stratégie présente des avantages indéniables en termes de crédibilité scientifique, de reproductibilité et d’impact académique. Elle permet aux chercheurs de vérifier les résultats, d’identifier les biais et de proposer des améliorations. Elle renforce également la confiance du public et des institutions dans la recherche. Toutefois, elle comporte des limites, notamment la perte d’exclusivité et le risque de dérivations concurrentes.
+
+À l’inverse, une approche fondée sur le secret commercial consiste à conserver les poids complets, les données d’entraînement et les pipelines propriétaires confidentiels. L’accès au modèle se fait alors via une API ou un service interne, assorti de contrats de licence commerciale et d’accords de non-divulgation. Cette stratégie offre un avantage compétitif et un contrôle accru sur la qualité et la sécurité, mais elle réduit la transparence et peut compromettre l’acceptabilité académique, surtout dans les disciplines où la reproductibilité est une exigence.
+Pour concilier ces deux logiques, la solution la plus équilibrée consiste à adopter un modèle de licence duale. Le code de base peut être publié en open source pour garantir la transparence et la vérifiabilité, tandis que les poids complets, les modules de fine-tuning et les services avancés sont proposés sous licence propriétaire. Cette approche permet de répondre aux exigences de la science ouverte tout en préservant les intérêts économiques de l’université. Elle doit s’accompagner d’une documentation rigoureuse, incluant des fichiers de gouvernance tels que la model card et la data sheet, ainsi que des avertissements légaux précisant les conditions d’utilisation et les limitations de responsabilité. La traçabilité des versions, la gestion des licences des dépendances et la publication des DOI pour chaque version majeure renforcent la conformité et la crédibilité. Enfin, cette stratégie doit être articulée avec les principes éthiques et les mesures d’équité algorithmique, afin de garantir que la diffusion du modèle ne reproduise pas les biais existants et respecte les standards de responsabilité scientifique.
+La gestion de la propriété intellectuelle et du partage de \emph{RedactoSci} repose sur un équilibre entre ouverture et protection. Elle implique de reconnaître la paternité humaine des œuvres, d’assurer la confidentialité des données, de définir une stratégie de diffusion adaptée et de mettre en place une documentation complète. L’adoption d’une licence duale, combinant transparence scientifique et valorisation commerciale, apparaît comme la solution la plus pertinente pour concilier les impératifs académiques et économiques. Cette approche, fondée sur les recommandations du cours et les bonnes pratiques internationales, garantit la crédibilité, la conformité et la durabilité du projet.
 \section{Valorisation et Diffusion}
 \label{sec:Valorisation et Diffusion}
 
+\subsection{Plan de valorisation}
+La valorisation des connaissances vise à maximiser l’impact socio-économique de la recherche en facilitant la circulation, la réutilisation et l’exploitation des résultats scientifiques\cite{ ocde_innovation}.
+Dans cette logique, on propose trois stratégies principales pour \emph{RedactoSci}: la création d’une spin-off universitaire, la mise en service public gratuit ou l’adoption d’une modèle hybride.
+
+\subsubsection{Option 1 : Création d'une spin-off universitaire (commercialisation de RedactoSci)}
+
+Les établissements de recherche jouent un rôle clé dans la création d’entreprises dérivées, en convertissant leurs découvertes scientifiques en produits et services commercialisables \cite{ ocde_innovation}. Cela peut prouver que la créations d’une spin-off représente une voie de commercialisation prometteuse.
+
+\textbf{Avantages :}
+\begin{itemize}
+    \item Génération de revenues pour l’université et les chercheurs impliques.  
+    \item Développement continu assure par une équipe dédiée. 
+    \item Focalisation stratégique sur la commercialisation.
+    \item Impact économique : création d’emplois, innovation locale \cite{EUValorisation2022}.
+    \item Accès facilité au financement (capital-risque, subventions privées) \cite{tech_transfer}.
+\end{itemize}
+
+\textbf{Inconvénients :}
+\begin{itemize}
+    \item Accessibilité limitée (coûts d'utilisation).
+    \item Risque entrepreneurial d’échec.
+    \item Conflits potentiels entre culture académique et logique commerciale \cite{university_spinoff}.
+\end{itemize}
+
+\subsubsection{Option 2 : Service public gratuit (impact et attractivité)}
+Une autre approche consiste à diffuser \emph{RedactoSci} comme service publique gratuit, afin de maximiser l’accès au sein de la communauté scientifique.
+
+Le libre accès profite littéralement à tout le monde, pour les mêmes raisons que la recherche elle-même bénéfice a l’ensemble de la société. Le libre accès remplit cette fonction en facilitant la recherche et en rendant les résultats plus largement accessibles et utiles.\cite{suber2012open}
+ Cette phrase soutient directement l’idée qu’un outil gratuit augmente l’impact scientifique, l’équité d’accès et la collaboration internationale.
+
+\textbf{Avantages :}
+\begin{itemize}
+    \item Accessibilite élargie aux etudiants, chercheurs et institutions.
+    \item Attire les partenaires stratégiques et les talents.
+    \item Renforce la réputation de l'université en innovation ouverte.
+    \item Augmente les chances d'obtenir des financements publics.
+\end{itemize}
+
+\textbf{Inconvénients :}
+\begin{itemize}
+    \item Financement récurrent pour assurer la maintenance, les mises a jour et l’hébergement de l’outil, ce qui peut présenter une charge financière.
+    \item Génération d’aucun ou peu de revenus directs, rendant difficile la mobilisation de ressources et l’amélioration continue de \emph{RedactoSci}
+\end{itemize}
+
+\subsubsection{Modèle hybride recommandé}
+Le modèle le plus réaliste pour \emph{RedactoSci} consiste à combiner les deux options précédents:
+
+\begin{itemize}
+  \item \textbf{Version gratuite :} accès de base (rédaction, analyse, reformulation et suggestion).
+  \item \textbf{Version commerciale via spin-off :} fonctionnalités avancées (fine-tuning, analyse automatique de données, recherche des API et des supports institutionnel).
+\end{itemize}
+Les modèles hybrides combinant ouverture et exploitation commerciale permettent d’équilibrer l’accès public avec le développement économique.
+La valorisation vise explicitement à combiner la création de valeur sociale et économique, ce qui justifie l’adoption de modèles hybrides conciliant ouverture scientifique et exploitation commerciale des innovations \cite{EUValorisation2022}.
+
+Cette approche protégée les intérêts économiques tout en respectant les exigences de transparence scientifique.
+
+\begin{itemize}
+    \item \textbf{Accès Freemium} Permettant d’offrir une version gratuite pour encourager l’adoption tout en réservant des fonctionnalités avancées a une version premium.
+    \item \textbf{Spin-off commerciale} Chargée de développer et commercialiser les modules professionnels et le support technique.
+    \item \textbf{Gestion de la PI :} Incluant des licences adaptées, une protection des différents ensembles de données et des modalités d’usage bien définies.
+\end{itemize}
+En somme, ce modèle hybride assure une diffusion large et inclusive de \emph{RedactoSci}, tout en garantissant la capacite d’innovation continue et le financement continu. Il constitue ainsi une stratégie équilibrée qui répond simultanément aux attentes académiques, institutionnelles et sociétales.
+
+\subsection{Plan de diffusion}
+
+Après avoir défini les modalités de valorisation et d’exploitation de \emph{RedactoSci}, il est tout aussi important d’établir un plan de diffusion clair. Celui-ci doit préciser de manière rigoureuse comment l’outil sera présenté aux différentes instances académiques afin d’assurer son adoption, sa légitimité et son intégration responsable.
+\subsubsection{Pour les éditeurs scientifiques}
+Pour diffuser \emph{RedactoSci}, il faut d’abord s’assurer que tous les articles produits respectent bien les règles et les formats de revues ciblées (comme IEEE). Cela implique d’adapter le style d’écriture et la structure du texte au attentes de chaque éditeur.
+
+Il est aussi nécessaire d’expliquer bien ce que notre modèle apporte en termes d’utilité, originalité et la manière dont il aide les étudiants et les chercheurs a bien rédigée leur travail scientifique. Il faut aussi présenter des résultats bien expliquées, basée sur des informations pertinentes et non fictifs, faciles à reproduire. 
+
+L’article doit rester structuré et objectif, en expliquant clairement comment l’outil a été utilisé. Cette transparence rassure les comites de lecture et facilite l’acceptation de l’article. 
+
+Enfin, pour accroître la crédibilité scientifique de \emph{RedactoSci}, il est recommandé d’inclure dans chaque article une section dédiée à la validation du modèle utilisé. Cette section peut présenter les tests réalisés, les limites observées et les mesures mises en place pour assurer l’exactitude des contenus générés. Une telle transparence renforce la confiance des comités de lecture et démontre la rigueur méthodologique de l’équipe. En parallèle, une documentation claire de l’outil, fournie sous forme d’appendice ou de matériel complémentaire, permet aux éditeurs de mieux comprendre son fonctionnement et l’usage précis qui en a été fait dans la production scientifique soumise
 
 
 
-\section{Contributions individuelles}
-\label{sec:Contributions individuelles}
+\subsubsection{Pour les comités d’éthique}
 
-\newpage
+Pour les comités d’éthique, la présentation de \emph{RedactoSci} doit s’appuyer sur une démarche transparente et conforme aux exigences réglementaires. Il est essentiel de démontrer que note outil respecte les principes d’éthiques fondamentaux, notamment la protection des données, la confidentialité des informations et, lorsque nécessaire, l’obtention d’un consentement éclaire.
+Il convient également de décrire de manière précise l’ensemble de procédure prévues tels que les étapes d’utilisation de cet outil, les risques, les mesures mises en place pour les atténuer, ainsi que la durée et les conditions d’implication des utilisateurs ou des chercheurs concernes.
+
+L’envoi au comité d’éthique doit s’accompagner de tous les documents requis, tels que les formulaires de consentement, les protocoles détaillées, les guides d’utilisation ou toute procédure interne permettant de comprendre comment la sécurité, la traçabilité et la conformité sont assurées.
+
+Enfin, il est important de mettre en avant les bénéfices concert de \emph{RedactoSci}, tant pour la communauté scientifique que pour la société cela inclut, l’amélioration de l’intégrité des productions académiques, réduction de la charge de travail, soutien à la rigueur méthodologique et contribution a une recherche plus accessible et plus efficace.
+
+\section{Conclusion}
+\label{sec:CConclusion}
+Le développement et l’analyse de \emph{RedactoSci} mettent en lumière la profondeur des transformations que l’intelligence artificielle générative introduit dans le milieu académique. Conçu pour soutenir les chercheurs et les étudiants dans leurs tâches rédactionnelles, analytiques et méthodologiques, le modèle ouvre de nouvelles perspectives d’efficacité et d’accessibilité dans la production scientifique. Toutefois, cette innovation ne peut être dissociée des enjeux d’intégrité, d’éthique, de propriété intellectuelle et d’équité qui émergent inévitablement lorsqu’un outil automatisé intervient dans des processus traditionnellement humains.
+
+L’étude menée a permis de montrer que l’usage responsable de l’IA exige une gouvernance rigoureuse, une transparence sur les limites du modèle et une vigilance constante face aux risques de plagiat algorithmique, d’hallucinations, de pertes de compétences et de reproduction de biais. Ces défis appellent à une implication institutionnelle forte, capable d’encadrer les pratiques et d’assurer un usage qui respecte les standards scientifiques et les valeurs de diversité et d’inclusion.
+
+Sur le plan de la valorisation et de la diffusion, \emph{RedactoSci} représente un exemple concret de tension entre ouverture et exploitation commerciale. Les options explorées démontrent que différents modèles sont possibles, mais qu’un modèle hybride apparaît comme la solution la plus équilibrée pour concilier impact scientifique, accessibilité et durabilité économique. De même, la diffusion du modèle auprès des éditeurs et des comités d’éthique nécessite une approche stratégique et transparente, afin de garantir sa légitimité et son acceptation dans l’environnement universitaire.
+
+En définitive, \emph{RedactoSci} illustre parfaitement les opportunités offertes par l’IA générative, mais aussi les responsabilités qu’elle impose. Son déploiement ne peut être pleinement bénéfique que s’il s’accompagne de politiques claires, d’un encadrement adéquat et d’une réflexion continue sur les implications sociales, scientifiques et institutionnelles. Ce rapport, en articulant méthodologie, analyse critique et stratégies de diffusion, contribue à jeter les bases d’une utilisation éclairée, éthique et durable de l’IA dans la recherche universitaire.
+
+
+
+
 % 5) Bibliographie via BibTeX
-
-
 \newpage
 \pagenumbering{roman}
 \appendix
-
 \bibliographystyle{ieeetr}
 \bibliography{references}
+
+\newpage
+\section{Contributions individuelles}
+\label{sec:Contributions individuelles}
+\begin{table}[hbtp]
+	\begin{center}
+		\caption{Tableau des contributions individuelles}
+		\small
+		\begin{tabularx}{\linewidth}{
+				>{\raggedright\arraybackslash}p{0.20\linewidth}
+				X
+				>{\raggedright\arraybackslash}p{0.10\linewidth}}
+			\hline
+			Nom & Tâches principales & Heures estimées \\ \hline
+			
+           Sarra Yasmine Bali &
+            Recherche d’articles et rédaction des sections \emph{Rappel du schéma méthodologique} et \emph{Analyse d’intégrité, éthique et ÉDI}.  
+            Modification des sections \emph{Introduction et justification du sujet}, \emph{Problématique et Objectifs} et de la section \emph{Valorisation}.  
+            Gestion du groupe sur MS Teams, gestion complète du GitHub (création du dépôt, gabarits du rapport et du beamer, gestion des pull requests).  
+            Coordination générale du groupe, fusion du rapport final et uniformisation du style. &
+            70 \\ \hline
+			
+
+			Fatimata Zahra Diop &
+            Rédaction des sections \emph{Introduction et justification du sujet}, \emph{Problématique} et \emph{Objectifs}.  
+            Participation à la recherche documentaire et contribution rédactionnelle. &
+            55 \\ \hline
+			
+			Rachidatou Mabey Insa &
+            Recherche documentaire et rédaction de la section \emph{Gestion et Propriété Intellectuelle}.  
+            Préparation et mise en forme des diapositives Beamer correspondantes. &
+            55 \\ \hline
+			
+			
+			Paulin Rodrigue Njayou Tchapda &
+            Rédaction de la section \emph{Valorisation et Diffusion}.  
+            Contribution à l’élaboration des diapositives associées à cette section. &
+            50 \\ \hline
+			
+		\end{tabularx}
+	\end{center}
+\end{table}
+
 \end{document}

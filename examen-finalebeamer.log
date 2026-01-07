@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.13)  16 NOV 2025 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.13)  1 DEC 2025 00:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/sarah/PR/Examen-Intra-G5-1/examen-finalebeamer.tex
-(c:/Users/sarah/PR/Examen-Intra-G5-1/examen-finalebeamer.tex
+**c:/Users/sarah/PR/examen-finale-G8/examen-finalebeamer.tex
+(c:/Users/sarah/PR/examen-finale-G8/examen-finalebeamer.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/beamer\beamer.cls
@@ -659,49 +659,64 @@ Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
  (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-))
+)) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+ (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen325
+\ar@mcellbox=\box78
+\extrarowheight=\dimen326
+\NC@list=\toks50
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box79
+)
+\TX@col@width=\dimen327
+\TX@old@table=\dimen328
+\TX@old@col=\dimen329
+\TX@target=\dimen330
+\TX@delta=\dimen331
+\TX@cols=\count377
+\TX@ftn=\toks51
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 25.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textquote' on input line 29.
+(hyperref)                removing `\\' on input line 26.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 29.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 30.
 (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count377
+\l__color_backend_stack_int=\count378
 ) (examen-finalebeamer.aux
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 11.
 )
 \openout1 = `examen-finalebeamer.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -739,74 +754,74 @@ LaTeX Font Info:    ... okay on input line 29.
 
 (C:\Users\sarah\OneDrive\Documents\laTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count378
-\scratchdimen=\dimen325
-\scratchbox=\box78
-\nofMPsegments=\count379
-\nofMParguments=\count380
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count381
-\MPscratchDim=\dimen326
-\MPnumerator=\count382
-\makeMPintoPDFobject=\count383
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count379
+\scratchdimen=\dimen332
+\scratchbox=\box80
+\nofMPsegments=\count380
+\nofMParguments=\count381
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count382
+\MPscratchDim=\dimen333
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
+\everyMPtoPDFconversion=\toks53
 ) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
  (examen-finalebeamer.out) (examen-finalebeamer.out)
 \@outlinefile=\write5
 \openout5 = `examen-finalebeamer.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 29.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 29.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 29.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 30.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 29.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 29.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 29.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 29.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 29.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 29.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 29.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 29.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 29.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 29.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 29.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 29.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 30.
  (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -820,15 +835,107 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \degres on input line 29.
+LaTeX Info: Redefining \degres on input line 30.
  (examen-finalebeamer.nav)
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 33.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 35.
 
 
 [1
 
-{C:/Users/sarah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/sarah/OneDrive/Documents/laTex/fonts/enc/dvips/lm/lm-ec.enc}]
+{C:/Users/sarah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/sarah/OneDrive/Documents/laTex/fonts/enc/dvips/lm/lm-ec.enc}] (examen-finalebeamer.toc)
+
+[2
+
+]
+
+[3
+
+]
+
+[4
+
+]
+
+[5
+
+]
+
+[6
+
+]
+
+[7
+
+]
+
+[8
+
+]
+
+[9
+
+]
+
+[10
+
+]
+
+[11
+
+] (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/lm\ot1lmss.fd) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/lm\omllmm.fd) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/lm\omslmsy.fd) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/lm\omxlmex.fd) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/amsfonts\umsa.fd) (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/amsfonts\umsb.fd)
+
+[12
+
+]
+
+[13
+
+]
+
+[14
+
+]
+
+[15
+
+]
+
+[16
+
+]
+
+[17
+
+]
+
+[18
+
+] (examen-finalebeamer.bbl
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 10.
+ (C:\Users\sarah\OneDrive\Documents\laTex\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 10.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 10.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 10.
+)
+
+[19
+
+]
+
+[20
+
+
+]
 \tf@nav=\write6
 \openout6 = `examen-finalebeamer.nav'.
 
@@ -844,20 +951,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `examen-finalebeamer.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 505D9934A2F696C7E9270071DCBDAE32;1457.
  ) 
 Here is how much of TeX's memory you used:
- 24367 strings out of 468135
- 471417 string characters out of 5433161
- 868277 words of memory out of 5000000
- 52502 multiletter control sequences out of 15000+600000
- 644875 words of font info for 49 fonts, out of 8000000 for 9000
+ 25045 strings out of 468135
+ 484814 string characters out of 5433161
+ 875009 words of memory out of 5000000
+ 53072 multiletter control sequences out of 15000+600000
+ 698843 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,447b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmss10.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmss12.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmss8.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmsso10.pfb>
-Output written on examen-finalebeamer.pdf (1 page, 98478 bytes).
+ 128i,15n,123p,966b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmss10.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmss12.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmss8.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmsso10.pfb><C:/Users/sarah/OneDrive/Documents/laTex/fonts/type1/public/lm/lmtt10.pfb>
+Output written on examen-finalebeamer.pdf (20 pages, 318881 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

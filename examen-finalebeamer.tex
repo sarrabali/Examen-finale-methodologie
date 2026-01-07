@@ -1,4 +1,4 @@
-\documentclass[hyphens]{beamer}
+\documentclass{beamer}
 \usetheme{Madrid}
 \setbeamertemplate{bibliography item}{\insertbiblabel}
 
@@ -11,6 +11,7 @@
 \usepackage{booktabs}
 \usepackage{geometry}
 \usepackage{csquotes}
+\usepackage{tabularx}
 
 \graphicspath{{figures/}}
 
@@ -18,24 +19,221 @@
 
 % --- MÉTADONNÉES DU DOCUMENT ---
 \title[RedactoSci]{De la méthode à l’intégrité : gouvernance éthique et légale d’un outil d’IA
-générative pour la recherche \textquote{RedactoSci}}
+générative pour la recherche « RedactoSci »}
 
 \author[UQO INF5163 Examen Finale- groupe 8]{Paulin Rodrigue Njayou Tchapda, Sarra Yasmine Bali,
 	Rachidatou Mabey Insa et Fatimata Zahra Diop \\[1em]
 	\emph{Université du Québec en Outaouais}}
 
-\date{25 Novembre, Automne 2025}
-
+\date{9 Décembre 2025, Automne 2025}
+\emergencystretch=1em
 \begin{document}
 
+% ------------------ TITRE ------------------
 \begin{frame}
-	\titlepage
+    \titlepage
 \end{frame}
-	
 
+% ------------------ PLAN ------------------
+\begin{frame}{Plan de la présentation}
+\tableofcontents
+\end{frame}
 
+% ============================================================
+\section{Introduction}
+% ============================================================
 
+\begin{frame}{Introduction et justification du sujet}
+\begin{itemize}
+    \item Expansion fulgurante de l’IA générative en 2025 : texte, images, code, audio.
+    \item Les LLM permettent de produire en quelques secondes des contenus complexes \cite{Humlund2025}.
+    \item Les milieux universitaires sont transformés : rédaction, analyse, recherche documentaire.
+    \item Notre équipe propose \textbf{RedactoSci}, un modèle spécialisé formé sur millions d’articles.
+\end{itemize}
 
+\vspace{0.3cm}
+\textbf{Mais :} intégrité, plagiat, hallucinations, propriété intellectuelle et gouvernance deviennent critiques \cite{UQAM2025}.
+\end{frame}
 
+% ============================================================
+\section{Contexte et problématique}
+% ============================================================
 
+\begin{frame}{Impact de l’IA générative sur la recherche}
+\begin{itemize}
+    \item Automatisation croissante des tâches rédactionnelles.
+    \item Forte dépendance possible aux outils d’IA.
+    \item Risques : erreurs factuelles, dilution de l’analyse humaine \cite{UQAM2025}.
+    \item Besoin de mécanismes institutionnels pour garantir une utilisation responsable.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Problématique}
+Les chercheurs font face à :
+\begin{itemize}
+    \item surcharge informationnelle \cite{Humlund2025}.
+    \item délais serrés,
+    \item syndrome de la page blanche,
+    \item maintien difficile de l’intégrité scientifique.
+\end{itemize}
+
+\textbf{RedactoSci a été conçu pour répondre à ces défis.}
+\end{frame}
+
+% ============================================================
+\section{Objectifs}
+% ============================================================
+
+\begin{frame}{Objectifs SMART de RedactoSci}
+\begin{itemize}
+    \item \textbf{S} : assister la rédaction scientifique.
+    \item \textbf{M} : réduire de 30\% le temps de production.
+    \item \textbf{A} : automatiser tâches : plans, résumés, reformulation, code.
+    \item \textbf{R} : faciliter l'accès aux ressources fiables.
+    \item \textbf{T} : déploiement sur un semestre universitaire.
+\end{itemize}
+\end{frame}
+
+% ============================================================
+\section{Méthodologie (Rappel)}
+% ============================================================
+
+\begin{frame}{Rappel du schéma méthodologique}
+\begin{itemize}
+    \item Collecte de données scientifiques : articles, rapports, thèses.
+    \item Nettoyage : suppression doublons, correction erreurs, normalisation.
+    \item Modèle GPT-like basé sur Transformer \cite{antonesi2025review}.
+    \item Fine-tuning : résumés, concepts, reformulations, suggestions bibliographiques.
+    \item Évaluations intermédiaires + retours utilisateurs.
+\end{itemize}
+\end{frame}
+
+% ============================================================
+\section{Analyse : intégrité, éthique, ÉDI}
+% ============================================================
+
+\subsection{Analyse éthique}
+\begin{frame}{Analyse d’intégrité et d’éthique}
+Trois enjeux majeurs :
+\begin{enumerate}
+    \item \textbf{Plagiat algorithmique} : reproduction involontaire de données d'entraînement \cite{carlini2021extracting}.
+    \item \textbf{Hallucinations} : production d’informations fausses \cite{huang2025survey}.
+    \item \textbf{Perte de compétence} : dépendance excessive et diminution des capacités critiques \cite{gerlich2025ai}.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Plagiat algorithmique}
+\begin{itemize}
+    \item Les LLM peuvent mémoriser et regénérer du contenu protégé.
+    \item \textbf{Solutions RedactoSci :}
+    \begin{itemize}
+        \item reformulation automatique,
+        \item détection des formulations proches,
+        \item rappel des obligations de citation.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fabrication de données (Hallucinations)}
+\begin{itemize}
+    \item Contenu plausible mais faux ou inventé.
+    \item \textbf{Solutions :}
+    \begin{itemize}
+        \item système de détection d’incertitude,
+        \item avertissements,
+        \item encouragement à vérification manuelle.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Perte de compétence (Deskilling)}
+\begin{itemize}
+    \item Risque de réduire la pensée critique et l’analyse autonome.
+    \item \textbf{RedactoSci vise à :}
+    \begin{itemize}
+        \item renforcer l’apprentissage actif,
+        \item fournir explications méthodologiques,
+        \item éviter remplacement du raisonnement humain.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Aspects ÉDI}
+ \begin{frame}{Aspects ÉDI}
+	 \begin{table}[h!] \centering \small \renewcommand{\arraystretch}{1.3} \setlength{\tabcolsep}{6pt}
+		 \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|} \hline \textbf{Aspect} &\textbf{Description et rôle de \emph{RedactoSci}} \\ \hline \textbf{Biais linguistiques}& La recherche se fait avec la language anglais majoritairement. \emph{RedactoSci} intègre des données multilingues pour favoriser la diversité scientifique. \\ \hline \textbf{Biais culturels et de genre}& Le langage scientifique peut reproduire des stéréotypes. \emph{RedactoSci} ajuste les formulations fournies pour assurer le respect et l'inclusion. \\ \hline \textbf{Transparence et inclusion dans la conception}& Les données sont documentées et traçables. \emph{RedactoSci} assure la fiabilité des données et la transparence. \\ \hline \end{tabularx} \end{table} \end{frame}
+
+% ============================================================
+\section{Propriété intellectuelle}
+% ============================================================
+
+\begin{frame}{Gestion de la propriété intellectuelle}
+\begin{itemize}
+    \item L’IA n’est pas considérée comme auteur légal.
+    \item L’utilisateur humain demeure responsable du contenu.
+    \item Obligation de divulguer l’usage de l’IA.
+    \item Protection des données : éviter prompts sensibles, anonymisation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Documentation et partage}
+\begin{itemize}
+    \item \textbf{Science ouverte :} transparence, DOI, code public, model card.
+    \item \textbf{Secret commercial :} API, NDA, modules propriétaires.
+    \item \textbf{Solution recommandée : modèle hybride} :
+    \begin{itemize}
+        \item version gratuite = fonctions essentielles,
+        \item version payante = fine-tuning, analyses avancées.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% ============================================================
+\section{Valorisation et diffusion}
+% ============================================================
+
+\begin{frame}{Plan de valorisation}
+Trois options :
+\begin{itemize}
+    \item création d’une spin-off universitaire,
+    \item service gratuit pour maximiser l’impact scientifique,
+    \item \textbf{modèle hybride} (recommandé).
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Diffusion aux éditeurs scientifiques}
+\begin{itemize}
+    \item Respect normes IEEE et Springer.
+    \item Transparence sur l’usage de l’IA.
+    \item Résultats reproductibles et vérifiables.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Diffusion aux comités d’éthique}
+\begin{itemize}
+    \item Démarche conforme à protection des données.
+    \item Fourniture des protocoles et documents requis.
+    \item Mise en évidence des bénéfices pédagogiques.
+\end{itemize}
+\end{frame}
+
+% ============================================================
+\section{Conclusion}
+% ============================================================
+
+\begin{frame}{Conclusion}
+\begin{itemize}
+    \item RedactoSci répond à des défis méthodologiques majeurs.
+    \item Importance d’une gouvernance éthique rigoureuse.
+    \item Le modèle hybride concilie accessibilité et durabilité.
+    \item L’IA peut soutenir la recherche si elle est utilisée de manière responsable.
+\end{itemize}
+\end{frame}
+
+% ============================================================
+
+\begin{frame}[allowframebreaks]{Références}
+    \bibliographystyle{ieeetr}  % STYLE IEEE
+    \bibliography{references}   % FICHIER .bib
+\end{frame}
 \end{document}

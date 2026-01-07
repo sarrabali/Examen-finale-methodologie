@@ -1,11 +1,41 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{lemieux2025ia}
+S.~Lemieux, ``Ia générative et propriété intellectuelle : les risques à
+  connaître,'' {\em Revue Gestion HEC Montréal}, novembre 2025.
+\newblock Publié le 11 novembre 2025.
+
+\bibitem{magesh2024ai}
+V.~Magesh, F.~Surani, M.~Dahl, M.~Suzgun, C.~D. Manning, and D.~E. Ho, ``Ai on
+  trial: Legal models hallucinate in 1 out of 6 (or more) benchmarking
+  queries,'' 2024.
+
+\bibitem{bittle2025generative}
+K.~Bittle and O.~El-Gayar, ``Generative ai and academic integrity in higher
+  education: A systematic review and research agenda,'' {\em Information},
+  vol.~16, no.~4, p.~296, 2025.
+
+\bibitem{gerlich2025ai}
+M.~Gerlich, ``Ai tools in society: Impacts on cognitive offloading and the
+  future of critical thinking,'' {\em Societies}, vol.~15, no.~1, p.~6, 2025.
+
+\bibitem{khalifa2024using}
+M.~Khalifa and M.~Albadawy, ``Using artificial intelligence in academic writing
+  and research: An essential productivity tool,'' {\em Computer Methods and
+  Programs in Biomedicine Update}, vol.~5, p.~100145, 2024.
+
+\bibitem{connell2025generative}
+A.~E. Connell~Pensky, J.~H. Usdan, and H.~Chang, ``Generative ai’s impact on
+  graduate student professional writing productivity and quality,'' {\em
+  International Journal of Artificial Intelligence in Education}, pp.~1--26,
+  2025.
 
 \bibitem{ZhaouEtAl}
 H.~Chen, A.~Waheed, X.~Li, Y.~Wang, J.~Wang, B.~Raj, and M.~I. Abdin, ``On the
   diversity of synthetic data and its impact on training large language
   models,'' {\em arXiv preprint arXiv:2410.15226}, 2024.
 
-\bibitem{antonesi2025transformers}
+\bibitem{antonesi2025review}
 G.~Antonesi, T.~Cioara, I.~Anghel, V.~Michalakopoulos, E.~Sarmas, and
   L.~Toderean, ``From transformers to large language models: A systematic
   review of ai applications in the energy sector towards agentic digital
@@ -19,8 +49,8 @@ A.~Narayan, M.~F. Chen, K.~Bhatia, and C.~Re, ``Cookbook: A framework for
 \bibitem{carlini2021extracting}
 N.~Carlini, F.~Tramer, E.~Wallace, M.~Jagielski, A.~Herbert-Voss, K.~Lee,
   A.~Roberts, T.~Brown, D.~Song, U.~Erlingsson, {\em et~al.}, ``Extracting
-  training data from large language models,'' in {\em 30th USENIX security
-  symposium (USENIX Security 21)}, pp.~2633--2650, 2021.
+  training data from large language models,'' in {\em 30th USENIX Security
+  Symposium (USENIX Security 21)}, pp.~2633--2650, 2021.
 
 \bibitem{huang2025survey}
 L.~Huang, W.~Yu, W.~Ma, W.~Zhong, Z.~Feng, H.~Wang, Q.~Chen, W.~Peng, X.~Feng,
@@ -28,8 +58,25 @@ L.~Huang, W.~Yu, W.~Ma, W.~Zhong, Z.~Feng, H.~Wang, Q.~Chen, W.~Peng, X.~Feng,
   Principles, taxonomy, challenges, and open questions,'' {\em ACM Transactions
   on Information Systems}, vol.~43, no.~2, pp.~1--55, 2025.
 
-\bibitem{gerlich2025ai}
-M.~Gerlich, ``Ai tools in society: Impacts on cognitive offloading and the
-  future of critical thinking,'' {\em Societies}, vol.~15, no.~1, p.~6, 2025.
+\bibitem{ocde_innovation}
+{OCDE}, ``Manuel d’oslo : Lignes directrices pour la collecte et
+  l’interprétation des données sur l'innovation,'' 2018.
+
+\bibitem{EUValorisation2022}
+{European Commission}, ``Knowledge valorisation policy: Transforming research
+  into innovation,'' 2022.
+
+\bibitem{tech_transfer}
+{UNESCO}, ``University knowledge transfer and innovation policies.'' Policy
+  Paper, 2021.
+
+\bibitem{university_spinoff}
+M.~Wright, B.~Clarysse, P.~Mustar, and A.~Lockett, ``Academic entrepreneurship
+  and university spin-offs,'' {\em Entrepreneurship Research Journal}, vol.~6,
+  no.~2, pp.~1--22, 2016.
+
+\bibitem{suber2012open}
+P.~Suber, {\em Open Access}.
+\newblock MIT Press, 2012.
 
 \end{thebibliography}
