@@ -1,8 +1,23 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Introduction et justification du sujet}{2}{section.1}%
-\contentsline {section}{\numberline {2}Problématique et objectifs}{2}{section.2}%
-\contentsline {section}{\numberline {3}Rappel du schéma méthodologique}{2}{section.3}%
-\contentsline {section}{\numberline {4}Analyse d’intégrité, éthique et ÉDI}{2}{section.4}%
-\contentsline {section}{\numberline {5}Gestion et propriété intellectuelle}{2}{section.5}%
-\contentsline {section}{\numberline {6}Valorisation et Diffusion}{2}{section.6}%
-\contentsline {section}{\numberline {7}Contributions individuelles}{2}{section.7}%
+\contentsline {section}{\numberline {1}Introduction et justification du sujet}{3}{section.1}%
+\contentsline {section}{\numberline {2}Problématique et objectifs}{4}{section.2}%
+\contentsline {section}{\numberline {3}Rappel du schéma méthodologique}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Collecte et préparation des données}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Choix de l'architecture du modèle}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Méthode adaptation au contexte académique (Fine-tuning)}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Analyse d’intégrité, éthique et ÉDI}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analyse d’intégrité et d’éthique}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Aspects ÉDI}{9}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Gestion et propriété intellectuelle}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Propriété intellectuelle}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Documentation et Partage}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Valorisation et Diffusion}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Plan de valorisation}{12}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Option 1 : Création d'une spin-off universitaire (commercialisation de RedactoSci)}{13}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Option 2 : Service public gratuit (impact et attractivité)}{13}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Modèle hybride recommandé}{13}{subsubsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.2}Plan de diffusion}{14}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Pour les éditeurs scientifiques}{14}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Pour les comités d’éthique}{15}{subsubsection.6.2.2}%
+\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}%
+\contentsline {section}{\numberline {A}Contributions individuelles}{ii}{appendix.A}%

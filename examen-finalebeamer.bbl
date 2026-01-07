@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{Humlund2025}
+M.~Humlund and C.~Zhang, ``Generative ai’s impact on graduate student
+  professional writing productivity and quality,'' {\em International Journal
+  of Artificial Intelligence in Education}, 2025.
+
+\bibitem{UQAM2025}
+{UQAM}, ``Intégrer l’ia dans la recherche universitaire.''
+  \url{https://collimateur.uqam.ca/collimateur/integrer-lia-dans-la-recherche-universitaire/},
+  2025.
+
+\bibitem{antonesi2025review}
+G.~Antonesi, T.~Cioara, I.~Anghel, V.~Michalakopoulos, E.~Sarmas, and
+  L.~Toderean, ``From transformers to large language models: A systematic
+  review of ai applications in the energy sector towards agentic digital
+  twins,'' {\em arXiv preprint arXiv:2506.06359}, 2025.
+
+\bibitem{carlini2021extracting}
+N.~Carlini, F.~Tramer, E.~Wallace, M.~Jagielski, A.~Herbert-Voss, K.~Lee,
+  A.~Roberts, T.~Brown, D.~Song, U.~Erlingsson, {\em et~al.}, ``Extracting
+  training data from large language models,'' in {\em 30th USENIX Security
+  Symposium (USENIX Security 21)}, pp.~2633--2650, 2021.
+
+\bibitem{huang2025survey}
+L.~Huang, W.~Yu, W.~Ma, W.~Zhong, Z.~Feng, H.~Wang, Q.~Chen, W.~Peng, X.~Feng,
+  B.~Qin, {\em et~al.}, ``A survey on hallucination in large language models:
+  Principles, taxonomy, challenges, and open questions,'' {\em ACM Transactions
+  on Information Systems}, vol.~43, no.~2, pp.~1--55, 2025.
+
+\bibitem{gerlich2025ai}
+M.~Gerlich, ``Ai tools in society: Impacts on cognitive offloading and the
+  future of critical thinking,'' {\em Societies}, vol.~15, no.~1, p.~6, 2025.
+
+\end{thebibliography}
